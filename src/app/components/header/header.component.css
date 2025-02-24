@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+li {
+    list-style: none;
+}
+
+nav{
+    width: 80%;
+}
+
+img {
+    width: 18rem;
+}
+
+.container-logo {
+    display: flex;
+}
+
+hr {
+    height: 60px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-color: #D4D4D4;
+}
+.container-links-menu {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.link-menu {
+    font: 500 1rem Montserrat, "sans-serif";
+}
+
+.link-menu.active {
+    background-color: #FF3E37;
+    padding: 1rem;
+    color: white;
+    border-radius: 0.6rem;
+}
