@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { SmallComponent } from "./small/small.component";
 
 @Component({
   selector: 'app-card',
-  imports: [],
+  imports: [SmallComponent],
   templateUrl: './card.component.html',
   styleUrl: './card.component.css'
 })

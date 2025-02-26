@@ -1,0 +1,22 @@
+.small {
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+}
+
+.header h3 {
+    font-size:  1.3rem;
+}
+
+.header img {
+    width: 8rem;
+}
+
+main {
+    width: 360px;
+    height: 200px;
+    background-color: #F9F9F9;
+    border-radius: 2rem;
+}

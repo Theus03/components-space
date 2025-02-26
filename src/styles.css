@@ -1,6 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
-body {
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Montserrat, sans-serif; 
+    line-height: 1.5; 
+    height: 100%; 
+}
+
+body {
+    background-color: #fff;
+    color: #000000;
+    font-size: 16px; 
+}
+
+:root {
+    --color-primary: #FF3E37;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header a {
+    text-decoration: underline;
+    color: var(--color-primary);
 }
 
 /* Breakpoints */
