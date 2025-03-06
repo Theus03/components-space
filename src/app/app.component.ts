@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { HeaderComponent } from "./components/header/header.component";
 import { CardComponent } from "./components/card/card.component";
+import { PrimeNG } from 'primeng/config';
 
 @Component({
   selector: 'app-root',
@@ -10,4 +11,10 @@ import { CardComponent } from "./components/card/card.component";
 })
 export class AppComponent {
   title = 'components-space';
+
+  constructor(private primeng: PrimeNG) {}
+
+  ngOnInit() {
+      this.primeng.ripple.set(true);
+  }
 }
