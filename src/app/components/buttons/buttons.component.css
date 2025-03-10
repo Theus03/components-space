@@ -1,4 +1,4 @@
-#card {
+#buttons {
     padding: 4rem;
 }
 
@@ -24,7 +24,7 @@
     font-size: 1.3rem;
 }
 
-.cards {
+.buttons {
     width: 100%;
     display: flex;
     align-items: center;
