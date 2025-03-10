@@ -13,10 +13,11 @@ main:hover {
 
 .header h3 {
     font-size:  1.3rem;
+    font-weight: bold;
 }
 
 .header img {
-    width: 12rem;
+    width: 4rem;
 }
 
 .header a {
@@ -25,7 +26,7 @@ main:hover {
 
 main {
     width: 380px;
-    height: 260px;
+    height: 380px;
     background-color: #F9F9F9;
     border-radius: 2rem;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -42,7 +43,6 @@ main > .header {
 
 .box-like {
     padding: 0.6rem;
-    padding-bottom: 0.2rem;
     background-color: #D9D9D9;
     border-radius: 12px;
     text-align: center;
@@ -55,6 +55,15 @@ main > .header {
 main > .content {
     padding-left: 1.6rem;
 
+}
+
+.content span {
+    font-size: 0.8rem;
+}
+
+.content h3 {
+    font-weight: 700;
+    font-size: 1.6rem;
 }
 
 .container-badge{
@@ -77,12 +86,12 @@ main > .footer {
     margin-top: 1rem;
     padding-left: 1.6rem;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
 }
 
 .price{
     display: flex;
+    justify-content: start;
     flex-direction: column;
     gap: 0.6rem;
     font-size: 0.8rem;
@@ -90,11 +99,13 @@ main > .footer {
 }
 
 .container-btn {
+    margin-top: 1rem;
     margin-right: 1.6rem;
 }
 
 
 .btn {
+    width: 100%;
     background-color: black;
     border: none;
     border-radius: 12px;
