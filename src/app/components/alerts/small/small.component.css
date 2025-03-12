@@ -1,0 +1,33 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    gap: 2rem;
+}
+
+.header h3 {
+    font-size:  1.3rem;
+    font-weight: bold;
+}
+
+.header a {
+    cursor: pointer;
+}
+
+.alert {
+    background-color: #F9F9F9;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 12px;
+    border-left: 0.8rem solid black;
+    transition: 0.4s ease-in-out;
+}
+
+.alert:hover {
+    transform: translateX(2%);
+}
