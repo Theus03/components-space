@@ -1,0 +1,26 @@
+#navbar {
+    padding: 4rem;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.header h4 {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.header a {
+    text-decoration: underline;
+    color: var(--color-primary);
+}
+
+
+.describle span {
+    font-size: 1.3rem;
+}

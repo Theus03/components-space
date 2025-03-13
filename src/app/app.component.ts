@@ -4,10 +4,11 @@ import { CardComponent } from "./components/card/card.component";
 import { PrimeNG } from 'primeng/config';
 import { ButtonsComponent } from "./components/buttons/buttons.component";
 import { AlertsComponent } from "./components/alerts/alerts.component";
+import { NavbarComponent } from "./components/navbar/navbar.component";
 
 @Component({
   selector: 'app-root',
-  imports: [HeaderComponent, CardComponent, ButtonsComponent, AlertsComponent],
+  imports: [HeaderComponent, CardComponent, ButtonsComponent, AlertsComponent, NavbarComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

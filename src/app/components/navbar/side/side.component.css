@@ -1,0 +1,48 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    gap: 2rem;
+}
+
+.header h3 {
+    font-size:  1.3rem;
+    font-weight: bold;
+}
+
+.header a {
+    cursor: pointer;
+}
+
+.navbar {
+    background-color: #F9F9F9;
+    height: 450px;
+    width: 100px;
+    border-radius: 12px;
+}
+
+nav {
+    height: 450px;
+}
+
+ul {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+li.active {
+    background-color: black;
+    padding: 0.6rem;
+    border-radius: 8px;
+}
+
+img {
+    width: 2rem;
+}
