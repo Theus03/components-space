@@ -19,30 +19,48 @@
 
 .navbar {
     background-color: #F9F9F9;
-    height: 450px;
-    width: 100px;
+    width: 800px;
+    height: 100px;
     border-radius: 12px;
 }
 
 nav {
-    height: 450px;
+    height: 100px;
 }
 
 ul {
-    height: 450px;
+    height: 100px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 4rem;
 }
 
+li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+
 li.active {
     background-color: black;
-    padding: 0.6rem;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+li.active > span {
+    color: white;
+}
+
+li:not(.active):hover {
+    background-color: rgb(226, 226, 226);
+    padding: 1rem;
     border-radius: 8px;
 }
 
 img {
-    width: 2rem;
+    width: 1.6rem;
 }
