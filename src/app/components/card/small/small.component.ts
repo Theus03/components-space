@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
-import { ToastModule } from 'primeng/toast';
+import { MessageService } from 'primeng/api';
 
 
 @Component({
   selector: 'app-small',
   imports: [],
   templateUrl: './small.component.html',
-  styleUrl: './small.component.css'
+  styleUrl: './small.component.css',
+  providers: [MessageService]
 })
 export class SmallComponent {
   smallComponent = {
@@ -139,11 +140,12 @@ export class SmallComponent {
     </main>
 </div>
     `
-  }
+  };
 
 
   copySmall = () => {
     navigator.clipboard.writeText(this.smallComponent.template);
+    alert("✅ Código Copiado com Sucesso!");
   }
 
 }

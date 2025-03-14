@@ -10,7 +10,7 @@ import { NavbarComponent } from "./components/navbar/navbar.component";
   selector: 'app-root',
   imports: [HeaderComponent, CardComponent, ButtonsComponent, AlertsComponent, NavbarComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
 })
 export class AppComponent {
   title = 'components-space';
@@ -20,4 +20,8 @@ export class AppComponent {
   ngOnInit() {
       this.primeng.ripple.set(true);
   }
+
+  alertCopyCode = (component: string) => {  
+    return `${component} copiado com sucesso!`;
+} 
 }

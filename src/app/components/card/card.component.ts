@@ -10,5 +10,5 @@ import { LargeComponent } from "./large/large.component";
   styleUrl: './card.component.css'
 })
 export class CardComponent {
-
+ 
 }
